@@ -1,4 +1,6 @@
 Singleton with Prototype Dependencies
+
+
 When a Prototype scoped bean is autowired into a Singleton scoped bean, it doesn’t behave like we would expect a prototype to behave. We end up getting the same instance everytime due to being enclosed in a larger (Singleton) enclosing scope and caching behaviour which is inbuilt into Spring.
 In this video, we explore this behaviour in a bit more details, and look at different approaches we can take to work around this problem.
 
